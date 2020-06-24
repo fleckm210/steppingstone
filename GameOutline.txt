@@ -1,0 +1,30 @@
+Zombie Survival RTS:
+1.Setting
+
+	1.Post-Apocolypse
+	2.From Space Station
+	
+2.Modes
+
+	1.Survival-Lasting as long as possible
+		1.Build a Barracks to train soldiers and increase pop. Limit with houses
+		2.Call in AirStrikes from Space Station with Relay Outpost
+		3.Cure zombies:Experimental-Not For Sure 
+	
+	2.Conquest-Complete Objectives in Linear Fashion
+		1.
+		2.
+	
+
+	3.Blitz-Compete with other players to escape in a space capsule
+		1.
+		2.
+
+3.In-Depth Details
+	1.Zombies can Re-Produce by Infecting your Citizens/Soldiers
+	2.View will be a Birds-Eye view
+	3.Resources will include:
+		1.Food: Will feed your citizens
+		2.Metal: Builds Structures and Munitions
+		3.Munitions: Soldiers and Vehicles will be armed with Munitions
+		4.Energy: Powers Structures and Vehicles
