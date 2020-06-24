@@ -10,15 +10,13 @@ Zombie Survival RTS:
 		1.Build a Barracks to train soldiers and increase pop. Limit with houses
 		2.Call in AirStrikes from Space Station with Relay Outpost
 		3.Cure zombies:Experimental-Not For Sure 
-	
-	2.Conquest-Complete Objectives in Linear Fashion
-		1.
-		2.
-	
+		4.Can cloak for a long time, but you cannot collect power while cloaking
+			1.Cloaking takes a lot of power
 
-	3.Blitz-Compete with other players to escape in a space capsule
-		1.
-		2.
+	2.Blitz-Compete with other players to escape in a space capsule
+		1.Stores of food will be needed to escape(for the long journey)
+		2.over time, zombies will overwhelm you so you have to escape
+		3.Cooperation is optional so all players can escape 
 
 3.In-Depth Details
 	1.Zombies can Re-Produce by Infecting your Citizens/Soldiers
@@ -27,4 +25,6 @@ Zombie Survival RTS:
 		1.Food: Will feed your citizens
 		2.Metal: Builds Structures and Munitions
 		3.Munitions: Soldiers and Vehicles will be armed with Munitions
-		4.Energy: Powers Structures and Vehicles
+		4.Energy: 
+			1.Powers Structures and Vehicles and is needed to build houses
+			2.Collected with solar panels
