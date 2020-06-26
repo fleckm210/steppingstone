@@ -17,6 +17,7 @@ Zombie Survival RTS:
 		2.Call in AirStrikes from Space Station with Relay Outpost
 		3.Cure zombies:Experimental-Not For Sure 
 			1.Need energy
+				1.Collect Energy by building solar panels
 			2.Need food
 				1.Collect food by finding it around it around the map
 					1.Find it by recon of the map
@@ -41,11 +42,11 @@ Zombie Survival RTS:
 
 					2.Need Launch pad
 						1.Need Metal
-							1.Collect metal by Mining for it
+							1.Collect metal by building a mine
 								1.Need Metal
 								2.Need Energy
 
-							2.Collect metal by 
+							2.Collect metal by recycling destroyed buildings or vehicles 
 
 						2.Need Energy
 
@@ -56,13 +57,14 @@ Zombie Survival RTS:
 
 	2.Blitz-Compete with other players to escape in a space capsule
 		1.Stores of food will be needed to escape(for the long journey)
-		2.Cooperation is optional so all players can escape 
+		2.Cooperation is optional so all players can escape together
+			1.You can also just team up with just one person 
 
 		NOTE: over time, zombies will overwhelm you so you have to escape
 
 3.In-Depth Details
 	1.Zombies can Re-Produce by Infecting your Citizens/Soldiers
-	2.View will be a Birds-Eye view
+	2.View will be a top-down view 
 	3.Resources will include:
 		1.Food: Will feed your citizens
 		2.Metal: Builds Structures and Munitions
