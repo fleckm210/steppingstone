@@ -3,20 +3,40 @@ Zombie Survival RTS:
 
 	1.Post-Apocolypse
 	2.From Space Station
-	
+	3.Areas:
+		1.Basic forest
+			1.Surrounded by forest
+			2.Plains in the middle
+		2.Urban
+			1.Surrounded by buildings
+			
 2.Modes
 
 	1.Survival-Lasting as long as possible
 		1.Build a Barracks to train soldiers and increase pop. Limit with houses
 		2.Call in AirStrikes from Space Station with Relay Outpost
 		3.Cure zombies:Experimental-Not For Sure 
+			1.Need energy
+			2.Need food
+				1.Collect food by finding it around it around the map
+					1.Find it by recon of the map
+					2.Collect with vehicles(is faster with vehicles, but is optional)
+					3.Randomly generated in especially flat areas 
+						1.ten zones
+						2.randomly apear after a time within 15 to 60 seconds
+
+				2.Collect food by calling in airdrops
+					1.Need relay outpost
+					2.Need Launch pad
+
 		4.Can cloak for a long time, but you cannot collect power while cloaking
 			1.Cloaking takes a lot of power
 
 	2.Blitz-Compete with other players to escape in a space capsule
 		1.Stores of food will be needed to escape(for the long journey)
-		2.over time, zombies will overwhelm you so you have to escape
-		3.Cooperation is optional so all players can escape 
+		2.Cooperation is optional so all players can escape 
+
+		NOTE: over time, zombies will overwhelm you so you have to escape
 
 3.In-Depth Details
 	1.Zombies can Re-Produce by Infecting your Citizens/Soldiers
@@ -26,5 +46,6 @@ Zombie Survival RTS:
 		2.Metal: Builds Structures and Munitions
 		3.Munitions: Soldiers and Vehicles will be armed with Munitions
 		4.Energy: 
-			1.Powers Structures and Vehicles and is needed to build houses
-			2.Collected with solar panels
+			1.Powers Structures and Vehicles
+			2.Is needed to build houses
+			3.Collected with solar panels
