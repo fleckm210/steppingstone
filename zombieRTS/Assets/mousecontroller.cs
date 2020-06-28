@@ -22,6 +22,7 @@ public class mousecontroller : MonoBehaviour
 
     public void Click()
     {
+        Debug.Log("Click is running");
         btf.position = tf.position;
     }
 }

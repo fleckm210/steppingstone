@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{17276A05-56FA-B733-3315-3181B79F8A86}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/mousecontroller.cs">
     <Files>
-      <File FileName="Assets/buttoncontroller.cs" Line="18" Column="9" />
-      <File FileName="Assets/mousecontroller.cs" Line="7" Column="22" />
+      <File FileName="Assets/buttoncontroller.cs" Line="8" Column="25" />
+      <File FileName="Assets/mousecontroller.cs" Line="25" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
