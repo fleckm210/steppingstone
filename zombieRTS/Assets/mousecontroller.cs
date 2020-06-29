@@ -8,6 +8,7 @@ public class mousecontroller : MonoBehaviour
     public GameObject Button;
     private Transform btf;
     public Transform tf;
+    public buttoncontroller bc;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +18,23 @@ public class mousecontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tf.position = Input.mousePosition;
+        if (bc.StartFollowing)
+        {
+            tf.position = Input.mousePosition;
+        }
+        else
+        {
+            tf.position = new Vector3(Input.mousePosition.x + 500, Input.mousePosition.y + 500, Input.mousePosition.z);
+        }
     }
 
     public void Click()
     {
-        Debug.Log("Click is running");
         btf.position = tf.position;
+
+        if (!Input.GetKey(KeyCode.LeftShift))
+        {
+            bc.StartFollowing = false;
+        }
     }
 }
