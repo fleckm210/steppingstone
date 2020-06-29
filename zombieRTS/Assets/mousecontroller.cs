@@ -30,11 +30,15 @@ public class mousecontroller : MonoBehaviour
 
     public void Click()
     {
-        btf.position = tf.position;
-
-        if (!Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.Space))
         {
             bc.StartFollowing = false;
         }
+
+        if (bc.StartFollowing)
+        {
+            btf.position = tf.position;
+        }
+
     }
 }
