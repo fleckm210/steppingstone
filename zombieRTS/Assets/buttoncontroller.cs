@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class buttoncontroller : MonoBehaviour
 {
@@ -26,6 +23,4 @@ public class buttoncontroller : MonoBehaviour
         Debug.Log("has clicked");
         StartFollowing = true;
     }
-
-    
 }

@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\buttoncontroller.cs" />
     <Compile Include="Assets\mousecontroller.cs" />
+    <Compile Include="Assets\zombiecontroller.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

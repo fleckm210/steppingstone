@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Unity;
+﻿using UnityEngine;
 
 public class mousecontroller : MonoBehaviour
 {
@@ -9,6 +6,8 @@ public class mousecontroller : MonoBehaviour
     private Transform btf;
     public Transform tf;
     public buttoncontroller bc;
+    Vector3 mpos = Input.mousePosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +25,30 @@ public class mousecontroller : MonoBehaviour
         {
             tf.position = new Vector3(Input.mousePosition.x + 500, Input.mousePosition.y + 500, Input.mousePosition.z);
         }
+
+        if (bc.StartFollowing)
+        {
+            
+
+            if (btf.position.x < mpos.x)
+            {
+                btf.position = new Vector3(btf.position.x + 6, btf.position.y, btf.position.z);
+            }
+            else if (btf.position.x > mpos.x)
+            {
+                btf.position = new Vector3(btf.position.x - 6, btf.position.y, btf.position.z);
+            }
+
+            if (btf.position.y < mpos.y)
+            {
+                btf.position = new Vector3(btf.position.x, btf.position.y + 6, btf.position.z);
+            }
+            else if (btf.position.y > mpos.y)
+            {
+                btf.position = new Vector3(btf.position.x, btf.position.y - 6, btf.position.z);
+            }
+
+        }
     }
 
     public void Click()
@@ -35,10 +58,6 @@ public class mousecontroller : MonoBehaviour
             bc.StartFollowing = false;
         }
 
-        if (bc.StartFollowing)
-        {
-            btf.position = tf.position;
-        }
-
+        mpos = Input.mousePosition;
     }
 }
