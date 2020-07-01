@@ -14,7 +14,7 @@ public class zombiecontroller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (tf.position.x < player.transform.position.x)
         {
