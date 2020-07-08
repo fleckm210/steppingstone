@@ -30,8 +30,8 @@ public class player2Controller : MonoBehaviour
         //Left click is held down
         if (Input.GetMouseButton(0))
         {
-            Debug.Log(Input.mousePosition.x);
-            Debug.Log(playerScreenPos.x);
+            //Debug.Log(Input.mousePosition.x);
+            //Debug.Log(playerScreenPos.x);
 
             //tell the player where to go next
 
