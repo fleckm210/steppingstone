@@ -9,10 +9,14 @@ public class player2Controller : MonoBehaviour
     public Transform playerTF;
     Vector3 playerScreenPos;
     Vector3 newPosition; //where the player is going next
+    public RectTransform HealthBarScale;
+    public GameObject healthbar;
 
     // Start is called before the first frame update
     void Start()
     {
+        HealthBarScale = healthbar.GetComponent<RectTransform>();
+
         mainCam = camObj.GetComponent<Camera>();
 
         //Debug.Log(mainCam.WorldToScreenPoint(new Vector3(0, 0, 0)));
@@ -65,4 +69,12 @@ public class player2Controller : MonoBehaviour
             playerTF.position = new Vector3(playerTF.position.x, playerTF.position.y - 6, playerTF.position.z);
         }
     }//END OF FixedUpdate
+
+    private void OnCollision(Collision collision)
+    {
+        if (collision.gameObject.name == "zombie")
+        {
+            HealthBarScale.localScale = new Vector3(HealthBarScale.localScale.x, HealthBarScale.localScale.y, HealthBarScale.localScale.z);
+        }
+    }
 }
