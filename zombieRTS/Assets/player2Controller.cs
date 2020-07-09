@@ -70,11 +70,11 @@ public class player2Controller : MonoBehaviour
         }
     }//END OF FixedUpdate
 
-    private void OnCollision(Collision collision)
+    public void OnCollision(Collision collision)
     {
         if (collision.gameObject.name == "zombie")
         {
-            HealthBarScale.localScale = new Vector3(HealthBarScale.localScale.x, HealthBarScale.localScale.y, HealthBarScale.localScale.z);
+            HealthBarScale.localScale = new Vector3(HealthBarScale.localScale.x - 2000f, HealthBarScale.localScale.y, HealthBarScale.localScale.z);
         }
     }
 }

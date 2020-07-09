@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{17276A05-56FA-B733-3315-3181B79F8A86}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/player2Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/zombiecontroller.cs">
     <Files>
-      <File FileName="Assets/player2Controller.cs" Line="77" Column="138" />
+      <File FileName="Assets/player2Controller.cs" Line="49" Column="1" />
+      <File FileName="Assets/zombiecontroller.cs" Line="30" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="zombieRTS" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="player2Controller.cs" selected="True" />
+              <Node name="zombiecontroller.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +26,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="178f93f9-ea84-4233-90f5-391935b18ed8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/maggiefleck/Desktop/steppingstone/zombieRTS/Assets/player2Controller.cs" relfile="Assets/player2Controller.cs" line="54" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

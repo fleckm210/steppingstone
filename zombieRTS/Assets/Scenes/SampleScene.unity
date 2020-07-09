@@ -445,6 +445,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1226349903}
   tf: {fileID: 811485392}
+  zrnd: {fileID: 811485391}
+  zm2: {fileID: -4477950579280372258, guid: 1d6b6e4922d3b478eac322462bc0a0a3, type: 3}
+  zm1: {fileID: 8211371509869721738, guid: 1d6b6e4922d3b478eac322462bc0a0a3, type: 3}
 --- !u!1 &870756768
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,8 +580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camObj: {fileID: 519420028}
   playerTF: {fileID: 1226349906}
-  HealthBarScale: {fileID: 0}
-  healthbar: {fileID: 0}
+  HealthBarScale: {fileID: 2007135133}
+  healthbar: {fileID: 2007135132}
 --- !u!212 &1226349905
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -637,7 +640,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226349903}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 500, y: 448.5, z: 0}
   m_LocalScale: {x: 500, y: 500, z: 1}
   m_Children: []
