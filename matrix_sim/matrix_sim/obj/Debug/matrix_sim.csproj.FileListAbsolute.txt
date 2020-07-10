@@ -1,0 +1,6 @@
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/bin/Debug/matrix_sim.exe
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/bin/Debug/matrix_sim.pdb
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/obj/Debug/matrix_sim.csprojAssemblyReference.cache
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/obj/Debug/matrix_sim.csproj.CoreCompileInputs.cache
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/obj/Debug/matrix_sim.exe
+/Users/maggiefleck/Desktop/steppingstone/matrix_sim/matrix_sim/obj/Debug/matrix_sim.pdb
