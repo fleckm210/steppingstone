@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace matrix_sim
 {
@@ -13,7 +14,8 @@ namespace matrix_sim
 
             while (true)
             {
-                Console.Clear();
+                Thread.Sleep(100);
+                //Console.Clear();
                 for (int i = 0; i < 10; i++)
                 {
                     Console.SetCursorPosition(m.Next(0, 80), m.Next(0, 24));
@@ -40,6 +42,12 @@ namespace matrix_sim
                     Console.SetCursorPosition(m.Next(70, 75), m.Next(0, 24));
 
                     Console.Write(m.Next(0, 10));
+                }
+                for (int i = 0; i < 60; i++)
+                {
+                    Console.SetCursorPosition(m.Next(0, Console.WindowWidth), m.Next(0, Console.WindowHeight));
+
+                    Console.Write(' ');
                 }
             }
         }
