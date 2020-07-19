@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{F88F7652-F7D7-4F1A-8378-7C6AF315A9E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="slitherai/Program.cs">
+    <Files>
+      <File FileName="slitherai/Program.cs" Line="9" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="slitherai" expanded="True">
+            <Node name="slitherai" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>maxwidth</Value>
+          <Value>maxheight</Value>
+          <Value>j</Value>
+          <Value>i2 &lt; 10</Value>
+          <Value>i2</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.slitherai FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
