@@ -9,14 +9,11 @@ public class player2Controller : MonoBehaviour
     public Transform playerTF;
     Vector3 playerScreenPos;
     Vector3 newPosition; //where the player is going next
-    public RectTransform HealthBarScale;
-    public GameObject healthbar;
+    public Transform healthbar;
 
     // Start is called before the first frame update
     void Start()
     {
-        HealthBarScale = healthbar.GetComponent<RectTransform>();
-
         mainCam = camObj.GetComponent<Camera>();
 
         //Debug.Log(mainCam.WorldToScreenPoint(new Vector3(0, 0, 0)));
@@ -74,7 +71,7 @@ public class player2Controller : MonoBehaviour
     {
         if (collision.gameObject.name == "zombie")
         {
-            HealthBarScale.localScale = new Vector3(HealthBarScale.localScale.x - 2000f, HealthBarScale.localScale.y, HealthBarScale.localScale.z);
+            healthbar.localScale = new Vector3(healthbar.localScale.x - 2000f, healthbar.localScale.y, healthbar.localScale.z);
         }
     }
 }
