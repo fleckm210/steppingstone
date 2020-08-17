@@ -9,7 +9,6 @@ public class player2Controller : MonoBehaviour
     public Transform playerTF;
     Vector3 playerScreenPos;
     Vector3 newPosition; //where the player is going next
-    public Transform healthbar;
 
     // Start is called before the first frame update
     void Start()
@@ -67,11 +66,5 @@ public class player2Controller : MonoBehaviour
         }
     }//END OF FixedUpdate
 
-    public void OnCollision(Collision collision)
-    {
-        if (collision.gameObject.name == "zombie")
-        {
-            healthbar.localScale = new Vector3(healthbar.localScale.x - 2000f, healthbar.localScale.y, healthbar.localScale.z);
-        }
-    }
+    
 }

@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{17276A05-56FA-B733-3315-3181B79F8A86}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/player2Controller.cs">
     <Files>
-      <File FileName="Assets/player2Controller.cs" Line="52" Column="10" />
-      <File FileName="Assets/zombiecontroller.cs" Line="57" Column="10" />
+      <File FileName="Assets/player2Controller.cs" Line="23" Column="41" />
+      <File FileName="Assets/zombiecontroller.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,6 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b948b31c-a9e8-4c66-ad58-f5783bba6634" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
