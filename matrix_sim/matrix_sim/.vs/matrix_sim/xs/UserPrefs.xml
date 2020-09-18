@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{B30C6778-076E-4058-B2DF-053F8A30F260}|Default">
   <MonoDevelop.Ide.ItemProperties.matrix__sim PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="matrix_sim/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="matrix_sim/Program.cs" Line="24" Column="45" />
+      <File FileName="Program.cs" Line="28" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,6 +21,7 @@
           <Value>j</Value>
           <Value>i2 &lt; 10</Value>
           <Value>i2</Value>
+          <Value>m.Next(0, 10)</Value>
         </State>
       </Pad>
     </Pads>

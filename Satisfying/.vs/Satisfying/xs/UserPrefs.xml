@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{B30C6778-076E-4058-B2DF-053F8A30F260}|Default">
-  <MonoDevelop.Ide.ItemProperties.matrix__sim PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="matrix_sim/Program.cs">
+﻿<Properties StartupConfiguration="{7B5EC7B3-052D-4A36-83E9-ADA47F8DD932}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Satisfying/Program.cs">
     <Files>
-      <File FileName="matrix_sim/Program.cs" Line="24" Column="45" />
+      <File FileName="Satisfying/Program.cs" Line="47" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="matrix_sim" expanded="True">
-            <Node name="matrix_sim" expanded="True">
+          <Node name="Satisfying" expanded="True">
+            <Node name="Satisfying" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -25,6 +24,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Satisfying PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

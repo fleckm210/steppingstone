@@ -1,0 +1,6 @@
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/bin/Debug/Satisfying.exe
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/bin/Debug/Satisfying.pdb
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/obj/Debug/Satisfying.csprojAssemblyReference.cache
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/obj/Debug/Satisfying.csproj.CoreCompileInputs.cache
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/obj/Debug/Satisfying.exe
+/Users/maggiefleck/Desktop/github_repos/steppingstone/Satisfying/Satisfying/obj/Debug/Satisfying.pdb
